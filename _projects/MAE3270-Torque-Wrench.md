@@ -34,4 +34,11 @@ Deflection of load point: 0.51263 in
 ![Shaded rendering of earlier version]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 ![Shaded rendering of earlier version]({{ "/assets/images/totalelasticdef.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
+<section class="image-stack">
+  <img src="/assets/maxprincipalstress/.png" alt="Image 1 description">
+  <img src="/assets/images/normalstress.png" alt="Image 2 description">
+  <img src="/assets/images/totalelasticdef.png" alt="Image 3 description">
+  <img src="/assets/images/strainsatgaguge.png" alt="Image 4 description">
+</section>
+
 
