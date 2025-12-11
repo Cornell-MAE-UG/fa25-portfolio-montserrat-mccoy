@@ -18,26 +18,22 @@ b = thickness
 c = distance from center of drive to center of strain gauge
 <br>
 <br>
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="{{ '/assets/images/yourimage.png' | relative_url }}"
+       alt="Description"
+       style="width: 60%;">
 
-<div style="display: flex; align-items: center; gap: 20px;">
-
-  <img src="{{ '/assets/images/CAD.png' | relative_url }}" 
-       alt="Description" 
-       style="width: 40%;">
-
-  <div style="width: 60%;">
-    <p>
-      L is the length from drive to where load applied
+  <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">
+    L is the length from drive to where load applied
     <br>
     h = width 
     <br>
     b = thickness
     <br>
     c = distance from center of drive to center of strain gauge
-   </p>
-  </div>
+  </figcaption>
+</figure>
 
-</div>
 
 
 #### Material choice
