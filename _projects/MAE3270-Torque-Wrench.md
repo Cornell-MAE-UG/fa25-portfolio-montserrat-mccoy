@@ -19,6 +19,9 @@ Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultrici
 
 ![Photo of deformatiion]({{ "/assets/images/totalelasticdef" | relative_url }}){: .inline-image-l}
 
+<img src="/assets/images/totalelasticdef.jpg" alt="Deformation" style="width:300px; border-radius:10px;">
+
+
 Maximum normal stress: 85096 
 Strains at the strain gauge: 1150.3 µε
 Deflection of load point: 0.51263 in
