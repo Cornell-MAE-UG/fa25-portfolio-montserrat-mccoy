@@ -19,7 +19,7 @@ Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultrici
 
 ![Photo of deformatiion]({{ "/assets/images/totalelasticdef" | relative_url }}){: .inline-image-l}
 
-<img src="/assets/images/totalelasticdef.jpg" alt="Deformation" style="width:300px; border-radius:10px;">
+<img src="/assets/images/totalelasticdef.png" alt="Deformation" style="width:300px; border-radius:10px;">
 
 
 Maximum normal stress: 85096 
