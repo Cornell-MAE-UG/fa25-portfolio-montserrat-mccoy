@@ -29,7 +29,8 @@ For my torque wrench, I chose to use AISI 4340 Quenched and Tempered steel becau
 #### FEM load and boundary conditions 
 <img src="{{ '/assets/images/Diagram.jpg' | relative_url }}"
      alt="Diagram"
-     style="width: 60%; display: block; margin: 0 auto;">
+     style="width: 100%;">
+
 
 #### FEM Results
 Maximum normal stress: 85096 psi
