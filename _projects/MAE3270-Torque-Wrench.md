@@ -19,7 +19,7 @@ c = distance from center of drive to center of strain gauge
 <br>
 <br>
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/assets/images/yourimage.png' | relative_url }}"
+  <img src="{{ '/assets/images/CAD.png' | relative_url }}"
        alt="Description"
        style="width: 60%;">
 
