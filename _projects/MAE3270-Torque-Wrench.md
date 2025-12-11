@@ -7,17 +7,6 @@ permalink: /MAE3270-Torque-Wrench/
 ---
 
 #### CAD with dimensions
-![Photo of deformatiion]({{ "/assets/images/CAD.png" | relative_url }}){: .inline-image-l}
-<br>
-L is the length from drive to where load applied
-<br>
-h = width 
-<br>
-b = thickness
-<br>
-c = distance from center of drive to center of strain gauge
-<br>
-<br>
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="{{ '/assets/images/CAD.png' | relative_url }}"
        alt="Description"
