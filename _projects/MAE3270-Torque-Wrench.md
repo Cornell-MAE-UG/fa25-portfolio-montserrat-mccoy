@@ -31,16 +31,6 @@ Deflection of load point: 0.51263 in
 <br>
 Torque wrench sensitivity: 0.0015 mV/V
 
-![Image 1]({{ "/assets/images/maxprincipalstress.png" | relative_url }}){: style="width: 400px"}
-
-![Image 2]({{ "/assets/images/strain.png" | relative_url }}){: style="width: 400px"}
-
-![Image 3]({{ "/assets/images/normalstress.png" | relative_url }}){: style="width: 400px"}
-
-![Image 4]({{ "/assets/images/totalelasticdef.png" | relative_url }}){: style="width: 400px"}
-
-![Image 5]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: style="width: 400px"}
-
 <!-- First two images: stacked vertically -->
 <figure style="margin-bottom:20px;">
   <img src="{{ '/assets/images/maxprincipalstress.png' | relative_url }}" alt="Image 1" style="width:100%;">
