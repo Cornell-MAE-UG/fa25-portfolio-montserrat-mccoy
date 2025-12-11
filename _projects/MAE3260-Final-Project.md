@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Drilling Down Into the Dynamics: How Feedback Keeps the Bit from Having a Fit
+title: Drilling Down Into the Dynamics, How Feedback Keeps the Bit from Having a Fit
 description: System Dynamics Project
 technologies: [MATLAB]
 image: /assets/images/function-graph.png
