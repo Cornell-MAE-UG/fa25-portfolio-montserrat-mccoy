@@ -30,11 +30,8 @@ Strains at the strain gauge: 1150.3 µε
 Deflection of load point: 0.51263 in
 
 ![Shaded rendering of earlier version]({{ "/assets/images/maxprincipalstress.png" | relative_url }}){: .inline-image-r style="width: 500px"}
-<br>
 ![Shaded rendering of earlier version]({{ "/assets/images/normalstress.png" | relative_url }}){: .inline-image-r style="width: 500px"}
-<br>
 ![Shaded rendering of earlier version]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: .inline-image-r style="width: 500px"}
-<br>
 ![Shaded rendering of earlier version]({{ "/assets/images/totalelasticdef.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
