@@ -3,7 +3,6 @@ layout: project
 title: MAE 3270 Torque Wrench
 description: Materials Project
 technologies: [Autodesk Fusion, Ansys]
-image: /assets/images/CAD.png
 permalink: /MAE3270-Torque-Wrench/
 ---
 
