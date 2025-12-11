@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+title: MAE 3270 Torque Wrench
+description: Materials Project
+technologies: [Autodesk Fusion, Ansys]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
