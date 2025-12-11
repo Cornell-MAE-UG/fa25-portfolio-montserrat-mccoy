@@ -28,14 +28,18 @@ Maximum normal stress: 85096
 Strains at the strain gauge: 1150.3 µε
 <br>
 Deflection of load point: 0.51263 in
+<br>
+Torque wrench sensitivity: 0.0015 mV/V
 
 ![Image 1]({{ "/assets/images/maxprincipalstress.png" | relative_url }}){: style="width: 400px"}
 
-![Image 2]({{ "/assets/images/normalstress.png" | relative_url }}){: style="width: 400px"}
+![Image 2]({{ "/assets/images/strain.png" | relative_url }}){: style="width: 400px"}
 
-![Image 3]({{ "/assets/images/totalelasticdef.png" | relative_url }}){: style="width: 400px"}
+![Image 3]({{ "/assets/images/normalstress.png" | relative_url }}){: style="width: 400px"}
 
-![Image 4]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: style="width: 400px"}
+![Image 4]({{ "/assets/images/totalelasticdef.png" | relative_url }}){: style="width: 400px"}
+
+![Image 5]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: style="width: 400px"}
 
 
 
