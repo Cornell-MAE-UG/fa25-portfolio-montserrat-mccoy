@@ -18,7 +18,9 @@ We began this exploration by dissecting the drill, with the goal of closely exam
 <u>ODEs</u>
 <br>
 After dissecting the drill, we proceeded to model it as a coupled electromechanical system where the electrical subsystem is composed of the trigger circuit and motor, while the mechanical subsystem includes the rotor, gear train, and chuck. To capture the behavior of the drill, we came up with two differential equations, one for each subsystem. The electrical ODE follows Kirchoff’s Voltage Law while the mechanical ODE follows Newton’s second law in rotation. These ODEs are coupled, showing how the input voltage v generates the motor torque Tm, and the torque yields the rotational speed ω. 
-
+<br>
+<u>State Space</u>
+<br>
 In order to track how the internal states of the drill, namely i(t) and ω(t) , change with time, we derived a state space model of the system. This allowed us to understand how the voltage creates current, the current creates the motor torque, and the torque accelerates the drill.
 
 
