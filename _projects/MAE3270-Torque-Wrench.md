@@ -41,17 +41,40 @@ Torque wrench sensitivity: 0.0015 mV/V
 
 ![Image 5]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: style="width: 400px"}
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+<!-- First two images: stacked vertically -->
+<figure style="margin-bottom:20px;">
+  <img src="{{ '/assets/images/maxprincipalstress.png' | relative_url }}" alt="Image 1" style="width:100%;">
+  <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+    Maximum Principal Stress
+  </figcaption>
+</figure>
 
-  <img src="{{ '/assets/images/maxprincipalstress.png' | relative_url }}" alt="Image 1" style="width: 100%;">
+<figure style="margin-bottom:20px;">
+  <img src="{{ '/assets/images/strain.png' | relative_url }}" alt="Image 2" style="width:100%;">
+  <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+    Strain Distribution
+  </figcaption>
+</figure>
 
-  <img src="{{ '/assets/images/strain.png' | relative_url }}" alt="Image 2" style="width: 100%;">
+<!-- Last two images: side-by-side -->
+<div style="display:flex; gap:20px;">
 
-  <img src="{{ '/assets/images/normalstress.png' | relative_url }}" alt="Image 3" style="width: 100%;">
+  <figure style="flex:1; margin:0;">
+    <img src="{{ '/assets/images/normalstress.png' | relative_url }}" alt="Image 3" style="width:100%;">
+    <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+      Normal Stress
+    </figcaption>
+  </figure>
 
-  <img src="{{ '/assets/images/totalelasticdef.png' | relative_url }}" alt="Image 4" style="width: 100%;">
+  <figure style="flex:1; margin:0;">
+    <img src="{{ '/assets/images/totalelasticdef.png' | relative_url }}" alt="Image 4" style="width:100%;">
+    <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+      Total Elastic Deformation
+    </figcaption>
+  </figure>
 
 </div>
+
 
 
 
