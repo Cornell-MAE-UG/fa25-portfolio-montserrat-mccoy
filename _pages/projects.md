@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: Montserrat McCoy - Portfolio
 permalink: /projects/
 ---
 
