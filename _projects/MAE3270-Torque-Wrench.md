@@ -41,5 +41,18 @@ Torque wrench sensitivity: 0.0015 mV/V
 
 ![Image 5]({{ "/assets/images/strainsatgaguge.png" | relative_url }}){: style="width: 400px"}
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+  <img src="{{ '/assets/images/maxprincipalstress.png' | relative_url }}" alt="Image 1" style="width: 100%;">
+
+  <img src="{{ '/assets/images/strain.png' | relative_url }}" alt="Image 2" style="width: 100%;">
+
+  <img src="{{ '/assets/images/normalstress.png' | relative_url }}" alt="Image 3" style="width: 100%;">
+
+  <img src="{{ '/assets/images/totalelasticdef.png' | relative_url }}" alt="Image 4" style="width: 100%;">
+
+</div>
+
+
 
 
