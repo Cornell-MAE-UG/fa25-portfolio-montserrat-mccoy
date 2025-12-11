@@ -17,7 +17,7 @@ For my torque wrench, I chose to use AISI 4340 Quenched and Tempered steel becau
 
 Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
-![Photo of deformatiion]({{ "/assets/images/totalelasticdef" | relative_url }}){: .inline-image-l}
+![Photo of deformatiion]({{ "/assets/images/totalelasticdef.png" | relative_url }}){: .inline-image-l}
 
 <img src="/assets/images/totalelasticdef.png" alt="Deformation" style="width:300px; border-radius:10px;">
 
