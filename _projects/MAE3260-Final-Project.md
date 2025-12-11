@@ -24,14 +24,7 @@ After dissecting the drill, we proceeded to model it as a coupled electromechani
 In order to track how the internal states of the drill, namely i(t) and ω(t) , change with time, we derived a state space model of the system. This allowed us to understand how the voltage creates current, the current creates the motor torque, and the torque accelerates the drill.
 
 
-
-This is how I solved the problem:
-
-```python
-    some code = 10;
-    plot();
-```
-
+### Open-Loop
 Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
 
