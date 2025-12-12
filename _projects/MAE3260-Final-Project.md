@@ -15,7 +15,7 @@ We began this exploration by dissecting the drill, with the goal of closely exam
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="{{ '/assets/images/dissection.png' | relative_url }}"
        alt="Description"
-       style="width: 60%;">
+       style="width: 100%;">
 
   <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">
     Dissection results.
