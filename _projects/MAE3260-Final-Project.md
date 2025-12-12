@@ -13,7 +13,7 @@ For this project, my group decided to dissect and model a drill. A physical diss
 ### Dissection
 We began this exploration by dissecting the drill, with the goal of closely examining the physical components to map them to the parameters that may appear in the ODE based on the DC motor models we have looked at in class and in Lab 1. During this process, we removed half of the drill casing and pressed the trigger switch to observe how each component moved. To help us name the components and learn more about them, we followed a labeled image that looked similar to our drill.  Once we triggered the drill, it was easy to identify the components that rotated, including the windings, rotor, gear train, and chuck. We also observed what the wires from the trigger switch connected to in order to understand how the electrical and mechanical components interacted with each other. After this first inspection, we took apart the individual parts to examine them more closely. We observed the brushes, windings, planetary gear systems, gear grease, and chuck. As we advanced through each component, we filled out the table below to map each component to the ODE variables we learned about in the semester, identify the type, and in what ODE it might show up. This set us up to later model the system as two coupled ODEs. 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/assets/images/drill.png' | relative_url }}"
+  <img src="{{ '/assets/images/dissection.png' | relative_url }}"
        alt="Description"
        style="width: 60%;">
 
