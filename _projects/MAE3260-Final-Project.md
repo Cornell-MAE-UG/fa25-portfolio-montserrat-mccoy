@@ -84,6 +84,22 @@ Overall, the drill reaches steady‑state speed of 1319 RPM in under one second,
   </figcaption>
 </figure>
 
+<br>
+<u>Block Diagram and Step Response</u>
+<figure style="margin-bottom:20px;">
+  <img src="{{ '/assets/images/oldiagram.png' | relative_url }}" alt="Image 1" style="width:100%;">
+  <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+    Block diagram of open loop system.
+  </figcaption>
+</figure>
+
+<figure style="margin-bottom:20px;">
+  <img src="{{ '/assets/images/stepresponse.png' | relative_url }}" alt="Image 2" style="width:100%;">
+  <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+    Plot of normalized speed vs time using open loop model.
+  </figcaption>
+</figure>
+
 
 
 
