@@ -8,7 +8,7 @@ permalink: /MAE3260-FinalProject/
 ---
 
 
-For this project, my group decided to dissect and model a drill. A physical dissection allowed us to directly connect course concepts to a tangible device that a lot of us use in our work on project teams. We chose the drill specifically as it connects electrical and mechanical subsystems together, like the DC motor, gear train, and clutch. Within the drill system, we developed an ODE model and then then use this to analyze the transient response through a step change in input and/or load, and investigate the open loop response via a simple experimental set-up under no load. 
+For this project, my group and I decided to dissect and model a drill. A physical dissection allowed us to directly connect course concepts to a tangible device that a lot of us use in our work on project teams. We chose the drill specifically as it connects electrical and mechanical subsystems together, like the DC motor, gear train, and clutch. Within the drill system, we developed an ODE model and then then use this to analyze the transient response through a step change in input and/or load, and investigate the open loop response via a simple experimental set-up under no load. 
 
 ### Dissection
 We began this exploration by dissecting the drill, with the goal of closely examining the physical components to map them to the parameters that may appear in the ODE based on the DC motor models we have looked at in class and in Lab 1. During this process, we removed half of the drill casing and pressed the trigger switch to observe how each component moved. To help us name the components and learn more about them, we followed a labeled image that looked similar to our drill.  Once we triggered the drill, it was easy to identify the components that rotated, including the windings, rotor, gear train, and chuck. We also observed what the wires from the trigger switch connected to in order to understand how the electrical and mechanical components interacted with each other. After this first inspection, we took apart the individual parts to examine them more closely. We observed the brushes, windings, planetary gear systems, gear grease, and chuck. As we advanced through each component, we filled out the table below to map each component to the ODE variables we learned about in the semester, identify the type, and in what ODE it might show up. This set us up to later model the system as two coupled ODEs. 
@@ -100,6 +100,25 @@ Overall, the drill reaches steady‑state speed of 1319 RPM in under one second,
     Plot of normalized speed vs time using open loop model.
   </figcaption>
 </figure>
+
+### Closed-Loop
+<figure style="margin-bottom:20px;">
+  <img src="{{ '/assets/images/cldiagram.png' | relative_url }}" alt="Image 2" style="width:100%;">
+  <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+    Block diagram of closed loop system.
+  </figcaption>
+</figure>
+
+To study feedback control, we conceptually added a speed sensor and a controller such that when the drill encounters a load disturbance TL(t), the controller will automatically adjust the applied voltage v(t) to correct for the load disturbance and ensure the drill remains at the desired speed.
+
+<figure style="margin-bottom:20px;">
+  <img src="{{ '/assets/images/disturbance.png' | relative_url }}" alt="Image 2" style="width:100%;">
+  <figcaption style="text-align:center; margin-top:8px; font-size:14px; color:#555;">
+    Applying a disturbance torque.
+  </figcaption>
+</figure>
+
+If C(s) is a just proportional control, the response will be sped up, and under a constant trigger input and load torque, will reduce the steady state error but not eliminate it. When the bit encounters a disturbance torque, the speed with drop and error will grow. The controller will see this error and increase the input voltage in order to pull the speed back up, however even in steady state, there will still be some error between the commanded trigger input and the drill speed. If C(s) is a proportional integral control, disturbance rejection will be much better than if solely proportional control is used. Steady state error, even under load will be nearly zero, as the controller will keep winding up the integral term until the drill speed matches that of the commanded trigger input. PID control would further benefit the system, ensuring the error doesn’t change too fast and thus reducing overshoot, however this feels overkill and unnecessary. 
 
 
 
