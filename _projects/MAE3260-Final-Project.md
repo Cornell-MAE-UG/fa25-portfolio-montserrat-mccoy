@@ -69,6 +69,7 @@ There is a variability of about 0.0023 s per revolution or 6.6 rad/s (65 RPM) in
 The fitted first‑order exponential model closely follows the measured speed data, with deviations within ±5%. This confirms that the drill’s ramp‑up can be approximated as a first‑order system, though small discrepancies are expected due to manual timing and load fluctuations.	
 Overall, the drill reaches steady‑state speed of 1319 RPM in under one second, with a bandwidth of 0.91 Hz and variability of ±65 RPM. These values define the drill’s performance envelope and can be used to model the drill, for controller design or for comparative analysis of similar systems.
 <br>
+<br>
 <u>Bode Plots</u>
 <figure style="margin-bottom:20px;">
   <img src="{{ '/assets/images/bode1.png' | relative_url }}" alt="Image 1" style="width:100%;">
