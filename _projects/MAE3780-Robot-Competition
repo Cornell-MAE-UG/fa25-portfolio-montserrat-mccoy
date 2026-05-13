@@ -30,16 +30,16 @@ When working toward the milestones, we tried to choose the simplest mechanical a
 We did not run into any major roadblocks, but we did change our final design. Originally, we planned to add a net or expandable section at the back of the robot to hold more cubes and reduce clutter near the side walls. After testing, we decided not to use it because it made the robot less stable and did not fit as well with our goal of keeping the robot heavier, sturdier, and more reliable. In the end, our final design was simpler than some of our early ideas, but it was easier to build, test, and fix.
 
 #### Chassis Dimensions
-<img src="{{ '/assets/images/circuit.jpg' | relative_url }}"
+<img src="{{ '/assets/images/circuit.png' | relative_url }}"
      alt="dimensions"
      style="width: 100%;">
 
 #### Circuit Diagram
-<img src="{{ '/assets/images/circuit.jpg' | relative_url }}"
+<img src="{{ '/assets/images/circuit.png' | relative_url }}"
      alt="Diagram"
      style="width: 100%;">
 
 #### Program Flow Chart
-<img src="{{ '/assets/images/circuit.jpg' | relative_url }}"
+<img src="{{ '/assets/images/circuit.png' | relative_url }}"
      alt="program-diagram"
      style="width: 100%;">
