@@ -1,0 +1,47 @@
+---
+layout: project
+title: Robot Competition
+description: Mechatronics Final Project
+technologies: [Arduino]
+image: /assets/images/drill.png
+permalink: /MAE3780-RobotCompetition/
+---
+
+
+My team's robot was designed to gather as many cubes as possible within the one-minute competition time. Since cubes count as long as they are completely within the robot’s perimeter, we focused on making a simple structure that could guide cubes into the robot and keep them there.
+
+Mechanically, the robot used cardboard walls around the back and sides of the frame. These walls acted as a barrier to hold cubes inside the robot’s perimeter while still keeping the robot within the allowed size limits. At the front, we added a V-shaped cardboard piece to push cubes toward the side openings between the robot frame and the cardboard wall. Once the cubes entered this space, the surrounding barrier helped keep them contained. A long strip of cardboard fit through slits in the barrier to hold the wall in place and make the structure more stable.
+
+For the electrical and software design, we used a color sensor to detect the black border of the playing field. When the robot detected black, it would stop driving forward and rotate away from the edge. Since we did not use sensors to detect cubes directly, our strategy was based on covering different areas of the board. To avoid repeating the same path, the code made the robot turn at different angles whenever the black border was detected.
+
+Ideally, the robot would drive around the field, funnel cubes into the side spaces using the V-shaped front, keep them inside the cardboard barrier, and continue changing direction whenever it reached the border. This made our design simple, lightweight, and focused on reliable cube collection.
+
+### Design Process Reflection
+
+Throughout the project, our group’s design process became focused on keeping the robot as simple and reliable as possible. After talking with the TAs, we realized that a simple design would be easier to test, repeat, and repair during the competition. Since the competition only required cubes to be inside the robot’s perimeter, not lifted off the board, we decided to focus on a simple collection system. 
+
+At first, we considered a few more complicated intake ideas, including a sweeping arm and a rotating mechanism that could push cubes into our robot’s boundary from farther away. However, we eventually decided that simply driving into the cubes and guiding them into our perimeter was the better option. This design had fewer moving parts and gave us less to worry about during testing and competition.
+
+For prototyping, we tested several cardboard shapes, wall sizes, and attachment methods. A big part of this process was figuring out how to keep cubes from falling out when the robot turned. Since we were limited by the robot size requirements, we had to adjust the cardboard walls carefully. We found that extending the walls slightly past the length of the robot helped keep cubes contained. We also tested different wall heights, especially after deciding to use larger wheels. A taller wall ended up working better because it made the structure more stable and helped the robot hold up better when pushing against cubes or other robots.
+
+When working toward the milestones, we tried to choose the simplest mechanical and software approach that would complete each task. For the movement and sensing milestones, we kept the code focused only on the required actions. For the cube-gathering milestone and final competition, we found that using the color sensor to detect the black border was the most reliable strategy. This allowed the robot to continuously move on the board without needing a more complex cube-detection system.
+
+We did not run into any major roadblocks, but we did change our final design. Originally, we planned to add a net or expandable section at the back of the robot to hold more cubes and reduce clutter near the side walls. After testing, we decided not to use it because it made the robot less stable and did not fit as well with our goal of keeping the robot heavier, sturdier, and more reliable. In the end, our final design was simpler than some of our early ideas, but it was easier to build, test, and fix.
+
+### Chassis Dimensions
+
+<img src="{{ '/assets/images/dimensions.png' | relative_url }}"
+     alt="dimensions"
+     style="width: 100%;">
+
+### Circuit Diagram
+
+<img src="{{ '/assets/images/circuit.png' | relative_url }}"
+     alt="Diagram"
+     style="width: 100%;">
+
+### Program Flow Chart
+
+<img src="{{ '/assets/images/program-diagram.png' | relative_url }}"
+     alt="program-diagram"
+     style="width: 100%;">
