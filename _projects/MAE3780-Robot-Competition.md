@@ -3,7 +3,7 @@ layout: project
 title: Robot Competition
 description: Mechatronics Final Project
 technologies: [Arduino]
-image: /assets/images/drill.png
+image: /assets/images/robot.jpg
 permalink: /MAE3780-RobotCompetition/
 ---
 
