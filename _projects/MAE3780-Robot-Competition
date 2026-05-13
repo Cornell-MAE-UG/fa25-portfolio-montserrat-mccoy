@@ -16,9 +16,8 @@ For the electrical and software design, we used a color sensor to detect the bla
 
 Ideally, the robot would drive around the field, funnel cubes into the side spaces using the V-shaped front, keep them inside the cardboard barrier, and continue changing direction whenever it reached the border. This made our design simple, lightweight, and focused on reliable cube collection.
 
-Design Process Reflection
-
 ### Design Process Reflection
+
 Throughout the project, our group’s design process became focused on keeping the robot as simple and reliable as possible. After talking with the TAs, we realized that a simple design would be easier to test, repeat, and repair during the competition. Since the competition only required cubes to be inside the robot’s perimeter, not lifted off the board, we decided to focus on a simple collection system. 
 
 At first, we considered a few more complicated intake ideas, including a sweeping arm and a rotating mechanism that could push cubes into our robot’s boundary from farther away. However, we eventually decided that simply driving into the cubes and guiding them into our perimeter was the better option. This design had fewer moving parts and gave us less to worry about during testing and competition.
@@ -29,17 +28,20 @@ When working toward the milestones, we tried to choose the simplest mechanical a
 
 We did not run into any major roadblocks, but we did change our final design. Originally, we planned to add a net or expandable section at the back of the robot to hold more cubes and reduce clutter near the side walls. After testing, we decided not to use it because it made the robot less stable and did not fit as well with our goal of keeping the robot heavier, sturdier, and more reliable. In the end, our final design was simpler than some of our early ideas, but it was easier to build, test, and fix.
 
-#### Chassis Dimensions
-<img src="{{ '/assets/images/circuit.png' | relative_url }}"
+### Chassis Dimensions
+
+<img src="{{ '/assets/images/dimensions.png' | relative_url }}"
      alt="dimensions"
      style="width: 100%;">
 
-#### Circuit Diagram
+### Circuit Diagram
+
 <img src="{{ '/assets/images/circuit.png' | relative_url }}"
      alt="Diagram"
      style="width: 100%;">
 
-#### Program Flow Chart
-<img src="{{ '/assets/images/circuit.png' | relative_url }}"
+### Program Flow Chart
+
+<img src="{{ '/assets/images/program-diagram.png' | relative_url }}"
      alt="program-diagram"
      style="width: 100%;">
